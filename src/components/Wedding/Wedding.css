@@ -1,0 +1,13 @@
+.wedding-text {
+  background-color: #fcfcfc;
+  padding: 25px;
+  font-size: 23px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.wedding-text p {
+  margin: 0;
+}
+
+.wedding-text .ceremony-text {
+  margin-top: 10px;
+}
