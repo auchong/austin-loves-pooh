@@ -34,7 +34,6 @@ export default class NavBar extends Component {
   render() {
     return (
       <Navbar light expand='md'>
-        <Link to ='/' className='navbar-brand'>P &amp; A</Link>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className='ml-auto' navbar>
