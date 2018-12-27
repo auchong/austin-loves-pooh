@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
+  NavbarBrand,
   NavbarToggler,
   Nav,
   NavItem } from 'reactstrap';
@@ -34,6 +35,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <Navbar light expand='md'>
+        <NavbarBrand>#AustinsGotPooh</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className='ml-auto' navbar>
