@@ -8,6 +8,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 1200px) {
+  body {
+    background-image: -webkit-linear-gradient(30deg, #FFDFE5 45%, #fff 45%);
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background-image: -webkit-linear-gradient(23deg, #FFDFE5 45%, #fff 45%)
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: -webkit-linear-gradient(18deg, #FFDFE5 45%, #fff 45%)
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: -webkit-linear-gradient(11deg, #FFDFE5 45%, #fff 45%)
+  }
+}
+
 section {
   margin-bottom: 50px;
 }
