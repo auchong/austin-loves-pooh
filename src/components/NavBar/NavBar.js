@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -46,10 +45,10 @@ export default class NavBar extends Component {
               <a className='nav-link' href='/' onClick={(e) => {this.scrollToComponent(e, 'wedding')}}>Wedding</a>
             </NavItem>
             <NavItem>
-              <Link to='/' className='nav-link'>Photos</Link>
+              <a className='nav-link' href='/' onClick={(e) => {this.scrollToComponent(e, 'our-photos')}}>Photos</a>
             </NavItem>
             <NavItem>
-              <Link to='/' className='nav-link'>Registry</Link>
+            <a className='nav-link' href='/' onClick={(e) => {this.scrollToComponent(e, 'registry')}}>Registry</a>
             </NavItem>
           </Nav>
         </Collapse>

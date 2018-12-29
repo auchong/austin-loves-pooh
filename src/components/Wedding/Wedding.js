@@ -9,7 +9,7 @@ import venue from '../../assets/images/venue.jpg';
 export default class Wedding extends Component {
   render() {
     return (
-      <div id='wedding'>
+      <section id='wedding'>
         <h2 className='text-center'>Our Wedding</h2>
         <Row>
           <Col md={{ size: 6, offset: 3}}>
@@ -25,7 +25,7 @@ export default class Wedding extends Component {
               <p className='ceremony-text'>Ceremony will start at 4pm, followed by dinner and reception</p>
           </Col>
         </Row>
-      </div>
+      </section>
     );
   }
 };

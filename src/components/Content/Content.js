@@ -4,6 +4,8 @@ import { Container } from 'reactstrap';
 import Homepage from '../Homepage/Homepage';
 import OurStory from '../OurStory/OurStory';
 import Wedding from '../Wedding/Wedding';
+import Photo from '../Photo/Photo';
+import Registry from '../Registry/Registry';
 
 import './Content.css';
 
@@ -15,6 +17,8 @@ export default class Content extends Component {
           <Homepage />
           <OurStory />
           <Wedding />
+          <Photo />
+          <Registry />
         </Container>
       </main>
     )
