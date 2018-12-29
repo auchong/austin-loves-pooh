@@ -9,6 +9,8 @@ import {
   ModalHeader, 
   ModalBody } from 'reactstrap';
 
+import './RsvpModal.css';
+
 export default class RsvpModal extends Component {
   constructor(props) {
     super(props);
@@ -44,11 +46,11 @@ export default class RsvpModal extends Component {
         <ModalHeader toggle={this.props.toggleModal}></ModalHeader>
         <ModalBody>
           {this.state.isError ? <Alert color='danger'>Incorrect code. Please try again.</Alert> : null}
-          <p>Please enter the code on your invitation to access the Google Form that you will need to complete to RSVP.</p>
+          <p>Please enter the code on your invitation to access the Google Form that you will need to complete your RSVP.</p>
           <InputGroup>          
             <Input placeholder='Enter the code here' onChange={this.rsvpInputHandler} />
             <InputGroupAddon addonType="append">
-              <Button onClick={this.rsvpButtonHandler}>Submit</Button>
+              <Button className='rsvp-submit' onClick={this.rsvpButtonHandler}>Submit</Button>
             </InputGroupAddon>          
           </InputGroup>
         </ModalBody>

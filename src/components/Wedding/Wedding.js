@@ -12,15 +12,17 @@ export default class Wedding extends Component {
       <div id='wedding'>
         <h2 className='text-center'>Our Wedding</h2>
         <Row>
-          <Col md='7'>
-            <div className='wedding-text'>
-              <p><strong>48 Fields</strong></p>
-              <p>43372 Spinks Ferry Rd, Leesburg, VA 20176</p>
-              <p className='ceremony-text'>Ceremony will start at 4pm, followed by dinner and reception</p>
-            </div>
-          </Col>
-          <Col md='5'>
+          <Col md={{ size: 6, offset: 3}}>
             <img src={venue} className='img-fluid img-thumbnail' alt='Venue' />
+            <hr className='hr-separator' />
+          </Col>
+        </Row>
+        <Row>
+          <Col md={{ size: 6, offset: 3}}>
+              <p><strong>48 Fields</strong></p>
+              <p>43372 Spinks Ferry Rd</p>
+              <p>Leesburg, VA 20176</p>
+              <p className='ceremony-text'>Ceremony will start at 4pm, followed by dinner and reception</p>
           </Col>
         </Row>
       </div>
