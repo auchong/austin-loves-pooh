@@ -8,30 +8,44 @@ export default class Timeline extends Component {
       <div class='timeline'>
         <div class='timeline-container timeline-left'>
           <div class='timeline-content'>
-            <h4>December 2010</h4>
-            <hr />
-            <p>Pureun and Austin first meet at Bridge Retreat</p>
+            <h4>5.11.1992</h4>
+            <p className='timeline-title'>Austin Chong</p>
+            <p className='timeline-location'>Fairfax, Virginia</p>
           </div>
         </div>
         <div class='timeline-container timeline-right'>
           <div class='timeline-content'>
-            <h4>June 2011</h4>
-            <hr />
-            <p>Austin asks Pureun if she would go out with him</p>
+            <h4>10.02.1992</h4>
+            <p className='timeline-title'>Pureun Michelle Noh</p>
+            <p className='timeline-location'>Seoul, South Korea</p>
           </div>
         </div>
         <div class='timeline-container timeline-left'>
           <div class='timeline-content'>
-            <h4>March 2019</h4>
-            <hr />
-            <p>Austin asks Pureun if she will marry him and she says YES!</p>
+            <h4>12.26.2010</h4>
+            <p className='timeline-title'>FIRST MET</p>
+            <p className='timeline-location'>Bridge4Youth Retreat</p>
           </div>
         </div>
         <div class='timeline-container timeline-right'>
           <div class='timeline-content'>
-            <h4>April 2019</h4>
-            <hr />
-            <p>Pureun and Austin get married happily ever after</p>
+            <h4>6.6.2011</h4>
+            <p className='timeline-title'>FIRST DATE</p>
+            <p className='timeline-location'>Fairfax Corner, VA</p>
+          </div>
+        </div>
+        <div class='timeline-container timeline-left'>
+          <div class='timeline-content'>
+            <h4>3.27.2018</h4>
+            <p className='timeline-title'>HE PROPOSED</p>
+            <p className='timeline-location'>Brooklyn Bridge Park, NY</p>
+          </div>
+        </div>
+        <div class='timeline-container timeline-right'>
+          <div class='timeline-content'>
+            <h4>4.13.2019</h4>
+            <p className='timeline-title'>BEST DAY EVER</p>
+            <p className='timeline-location'>Leesburg, VA</p>
           </div>
         </div>
       </div>

@@ -47,6 +47,7 @@
 
 .timeline h4 {
   font-size: 20px;
+  margin: 0;
 }
 
 .timeline-right::after {
@@ -56,6 +57,16 @@
 .timeline-content {
   padding: 5px 0;
   position: relative;
+}
+
+.timeline-title {
+  font-size: 25px;
+  margin: 0;
+}
+
+.timeline-location {
+  font-style: italic;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 600px) {
