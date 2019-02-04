@@ -17,7 +17,7 @@ export default class Photo extends Component {
     return (
       <section id='our-photos'>
         <h2 className='text-center'>Our Photos</h2>
-        <p className='text-center'>Coming Soon...</p>
+        <p className='text-center'>More Coming Soon...</p>
         <Row>
           <Col md='4' sm='12'>
             <img src={photoOne} className='img-fluid engagement-photo' alt='Engagement' />
