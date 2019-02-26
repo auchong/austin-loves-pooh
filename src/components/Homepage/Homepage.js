@@ -26,8 +26,8 @@ export default class Homepage extends Component {
          <h1 className='text-center'>Pureun &amp; Austin</h1>
           <img src={homepageImage} className='img-fluid' alt='Engagement couple' /> 
           <div className='homepage-text text-center'>
-            <p style={{'font-size': '19px', 'letter-spacing': '2px' }}>Please join us for our wedding celebration on</p>
-            <p style={{'font-size': '37px'}}>April 13, 2019</p>
+            <p style={{'fontSize': '19px', 'letterSpacing': '2px' }}>Please join us for our wedding celebration on</p>
+            <p style={{'fontSize': '37px'}}>April 13, 2019</p>
             <Button className='rsvp-btn' onClick={this.toggle}>RSVP</Button>
           </div>
         <RsvpModal isModalOpen={this.state.isModalOpen} toggleModal={this.toggle}></RsvpModal>
